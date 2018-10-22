@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.saleh.testapp.MainActivity"
+    android:background="@color/appMainTheme">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:textColor="@color/appMainTheme"
+        android:text="@string/signup"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/main_signup_margin_top"
+        android:onClick="signUp"
+        android:layout_marginLeft="@dimen/signup_page_margins"
+        android:layout_marginRight="@dimen/signup_page_margins"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:textColor="@color/appMainTheme"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:onClick="login"
+        android:layout_margin="@dimen/signup_page_margins"/>
+
+</LinearLayout>

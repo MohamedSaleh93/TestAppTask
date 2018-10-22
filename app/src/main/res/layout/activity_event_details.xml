@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/appMainTheme">
+
+    <TextView
+        android:id="@+id/eventNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_out"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/eventAddressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/eventCityTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_wait"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/numberOfEntranceTicketsBoughtTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_wait"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/locationNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_wait"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/startDateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_wait"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/endDateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/please_wait"
+        android:textColor="@color/white" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="title_activity_signup">signupActivity</string>
+    <string name="user_name">User name</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="enter_all_fields">Enter all fields</string>
+    <string name="enter_valid_email">Enter valid email</string>
+    <string name="enter_valid_password">Password requiring at least 6 characters</string>
+    <string name="app_id">1TcAvt0wD6YDxEffIJ7qJtRQvMXzu7</string>
+    <string name="client_id">XUNfi612hLNdS6V8TTb582YTou8qSX</string>
+    <string name="data_base_server_url">https://eyenight-dev.herokuapp.com/parse</string>
+    <string name="user_saved_successfully">User saved successfully</string>
+    <string name="some_thing_went_wrong">Something went wrong, Please try again later</string>
+    <string name="please_wait">Please wait</string>
+    <string name="user_not_exist">User not exist</string>
+    <string name="sign_out">Signout</string>
+</resources>
